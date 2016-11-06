@@ -32,3 +32,10 @@ html, body {
   font-weight: 500;
   color: white;
 }
+
+/*#timerDiv{
+  animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+  50% { opacity: 0; }
+}*/

@@ -12,6 +12,13 @@ const secondsToTime = (s) => {
     return `${min}:${sec}`;
 };
 
+function blink(){
+  var f = document.getElementById('timerDiv');
+  setInterval(function(){
+    f.style.display = (f.style.display == 'none' ? '' : 'none');
+  }, 1000);
+}
+
 // Listen to the 'timer-change' event
 ipcRenderer.on('timer-change', (event, t) => {
     // Initialize time with value send with event
@@ -32,6 +39,7 @@ ipcRenderer.on('timer-change', (event, t) => {
         // When reaching 0. Stop.
         if (currentTime <= 0) {
             clearInterval(timer);
+            blink();
         }
     }, 1000); // 1 second
 });

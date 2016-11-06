@@ -1,6 +1,6 @@
 
 html, body {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     background: #113A47;
 }
 
@@ -11,5 +11,24 @@ html, body {
     transform: translate(-50%, -50%);
     font-size: 75px;
     color: #D7ECFF;
-    text-shadow: 0 0 2px #fff, 0 0 6px #fff, 0 0 10px #fff, 0 0 15px #228DFF, 0 0 25px #228DFF, 0 0 30px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF;
+    text-shadow:
+      0 0 2px #fff,
+      0 0 6px #fff,
+      0 0 10px #fff,
+      0 0 15px #19d14a,
+      0 0 25px #19d14a,
+      0 0 30px #19d14a,
+      0 0 40px #19d14a,
+      0 0 50px #19d14a;
+}
+.author{
+  position:absolute;
+  bottom:10px;
+  right:25%;
+  left:50%;
+  margin-left:-150px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
 }

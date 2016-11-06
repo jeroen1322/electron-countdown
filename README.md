@@ -9,3 +9,5 @@ Download
 
 In the working dir type the following:
 `electron . [SECONDS]` e.g `electron . 5`
+
+![screenshot](https://github.com/jeroen1322/electron-countdown/blob/master/screenshot.PNG)
